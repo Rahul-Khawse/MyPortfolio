@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: #0094c5;
+    display: flex;
+    padding: 20px 100px;
+    color: aliceblue;
+}
+.left-nav{
+    font-size: 16px;
+    font-weight: 800;
+    flex: 4;
+}
+.right-nav{
+    display: flex;
+    font-size: 17px;
+    flex: 1;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+.right-nav a{
+    padding: 1px 15px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+.footer{
+    background-color: #003251;
+    display: flex;
+    padding: 20px 80px;
+    justify-content: center;
+    color: white;
+}
+.footer p{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.container2{
+    background-color: #003d62;
+    padding: 60px;
+    padding-bottom: 80px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    color: rgb(254, 254, 254);
+    padding: 30px;
+}
+.content2 h1{
+    font-size: 50px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+.link{
+    display: flex;
+}
+.link a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.link i{
+    color: white;
+    font-size: 22px;
+    padding-right: 8px;
+    padding-top: 1px;
+}
+.container{
+    background-color: #003d62;
+    padding: 4rem;
+    border-bottom: 4px solid #0089b7;
+    max-height: 100vh;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hi{
+    font-size: 7rem;
+    font-weight: bold;
+    color: #fff700;
+}
+.name{
+    font-size: 6rem;
+}
+.about h2{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.container3{
+    background-color: #003251;
+}
+.container3 h1{
+    font-size: 6rem;
+    text-align: center;
+    padding: 3rem 0;
+    color: white;
+}
+.grid{
+    padding: 0 5rem;
+    padding-bottom: 2rem;
+}
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.img img{
+    width: 380px;
+    transition: 0.2s ease-in-out;
+    border-radius: 5px;
+}
+.img img:hover{
+    transform: scale(1.03);
+    transition: 0.4s ease-in-out;
+    opacity: 0.8;
+}
+.card-content{
+    padding: 2rem;
+    position: relative;
+    top: -6rem;
+    margin-bottom: -5rem;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+.card:hover .card-content{
+    background-color: rgb(163, 163, 163);
+}
